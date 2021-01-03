@@ -5,6 +5,7 @@ class student:
         self.major = major
         self.gpa= gpa
         self.probation = probation
+# You can add functions in classes as shown below   
     def honor(self):
         if self.gpa >= 3.5:
             return True
