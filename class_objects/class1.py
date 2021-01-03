@@ -5,6 +5,11 @@ class student:
         self.major = major
         self.gpa= gpa
         self.probation = probation
+    def honor(self):
+        if self.gpa >= 3.5:
+            return True
+        else:
+            return False
 
 # class profs:
     
