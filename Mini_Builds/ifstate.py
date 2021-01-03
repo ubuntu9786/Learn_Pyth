@@ -1,5 +1,5 @@
 is_male = True
-is_siq = False
+is_siq = True
 
 if is_male and is_siq:
     print ("sup mi mello")
